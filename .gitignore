@@ -10,6 +10,8 @@
 # http://github.com/RailsApps/rails-composer/issues
 #----------------------------------------------------------------------------
 
+config/secrets.yml
+
 # bundler state
 /.bundle
 /vendor/bundle/
@@ -21,7 +23,7 @@ db/*.sqlite3
 /log/*
 /tmp/*
 
-config/secrets.yml
+
 
 # various artifacts
 **.war
