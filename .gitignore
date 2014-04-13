@@ -10,7 +10,7 @@
 # http://github.com/RailsApps/rails-composer/issues
 #----------------------------------------------------------------------------
 
-config/secrets.yml
+/config/secrets.yml
 
 # bundler state
 /.bundle
