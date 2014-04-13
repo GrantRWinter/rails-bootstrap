@@ -1,9 +1,10 @@
 class VisitorsController < ApplicationController
 
   def new
-    @visitor = Visitor.new
+   
   end
 
+<<<<<<< HEAD
   def create
     @visitor = Visitor.new(secure_params)
     if @visitor.valid?
@@ -22,3 +23,6 @@ class VisitorsController < ApplicationController
   end
 
 end
+=======
+end
+>>>>>>> parent of 056544a... add form to home page
