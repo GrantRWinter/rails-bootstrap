@@ -15,11 +15,16 @@ gem 'bootstrap-sass'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
-gem 'thin'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21, :rbx]
   gem 'hub', :require=>nil
   gem 'quiet_assets'
   gem 'rails_layout'
+end
+group :production do
+  gem 'pg'
+  gem 'thin'
+  gem 'rails_12factor'
 end
